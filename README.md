@@ -8,7 +8,7 @@
 
 ### Install the Auto Hero Avada Plugin
 
-1. Download the [zip](auto-hero-avada.zip).
+1. Download the [zip](auto-hero-avada.zip) (~1 KB).
 1. Manually upload the zip to /wp-content/plugins/auto-hero-avada or upload the zip via your wp-admin **Plugins** > **Add New** > **Upload Plugin**.
 1. Activate the plugin through the wp-admin **Plugins** page.
 
