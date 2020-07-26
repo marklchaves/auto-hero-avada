@@ -26,7 +26,7 @@ with this
      from the page/post featured image. -->
 <?php do_action('avada_feature2hero', $content_type, $alignment); ?>
 ```
-1. Save.
+4. Save.
 
 ### Edit a Page or Post
 
