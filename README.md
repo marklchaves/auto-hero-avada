@@ -1,8 +1,8 @@
 # Auto Hero Avada
 
- For the Avada theme, sets the title bar background image directly from the page or post featured image.
+ For the Avada theme, sets the title bar background image directly from the post or page featured image.
 
- If no featured image is set for the page/post, the default theme option settings are respected.
+ If no featured image is set for the post or page, the default theme option settings are respected.
 
 ## Usage
 
@@ -23,7 +23,7 @@
 with this
 ```php
 <!-- Use this custom hook to set the title bar bg image 
-     from the page/post featured image. -->
+     from the post or page featured image. -->
 <?php do_action('avada_feature2hero', $content_type, $alignment); ?>
 ```
 4. Save.
@@ -36,8 +36,9 @@ with this
 1. Set the **Page Title Bar Mobile Height** to the height you need for mobile. E.g., `720px`.
 1. Update or Publish.
 1. View the page. The featured image should appear as the hero image for the page.
-1. Disable the first featured image for the page/post as needed. Adjust the page title bar settings to what you like.
-1. See optional CSS below for creating an darkened overlay.
+1. Disable the first featured image for the post or page as needed. 
+1. Adjust the page title bar settings to what you like. E.g., 64px for the title font size.
+1. See the optional CSS below for creating an darkened overlay.
 
 ## Optional CSS
 
@@ -53,7 +54,7 @@ with this
 /* Overlay Attributes */
 .fusion-page-title-bar--overlay { 
   background-blend-mode: soft-light; 
-  background-color: rgba(0,0,0,0.4) !important; /* intensity: less is brighter; more is darker */
+  background-color: rgba(0,0,0,0.5) !important; /* Intensity: less is brighter; more is darker */
 }
 
 /* Background Attributes */
